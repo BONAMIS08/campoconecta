@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(Imagem/imagem-redefinirsenha.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+main {
+  padding: 40px;
+  border-radius: 30px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin-left: 300px;
+    background-color: #c19a6bcb;
+      margin-top: 80px;
+}
+button:hover{
+  background-color: #4B2E2A;
+}
+button>a:hover{
+ font-weight:bold;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4B2E2A;
+  border-radius: 10px;
+}
+main button {
+  width:70%;
+  padding: 10px;
+  background-color: #3EB300;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 30px;
+}
+button>a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+img{
+  width: 60px
+}
+
+main h5{
+  margin: 20px;
+  color: #4B2E2A;
+}
+a{
+  color: #4B2E2A;
+}
+main h2{
+  color: #4B2E2A;
+}

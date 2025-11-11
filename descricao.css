@@ -1,0 +1,132 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+:root{
+  --colorfundo:#FFFFBE;
+}
+body{
+  background-color: #FFFFBE;
+  font-family: "Poppins", sans-serif;
+}
+
+.caixap{
+  display: flex;
+justify-self: center;
+gap: 200px;
+}
+.caixap>img{
+  width: 40px;
+}
+.pesquisa{
+  background-color: #00732C;
+  padding: 16px;
+}
+input{
+  width: 480px;
+  border-radius: 20px;
+  font-size: 16px;
+padding: 6px;
+margin-right: 100px;
+}
+
+
+.menu{
+display: flex;
+background-color: #144714;
+gap: 10px;
+ box-shadow: 0 4px 6px rgba(22, 65, 1, 0.742);
+
+}
+
+ .navegador{
+list-style-type: none;
+ display: flex;
+margin: auto;
+justify-content: center;
+ gap: 100px;
+padding: 20px;
+ }
+a{
+text-decoration: none;
+color: #FFEEF1;
+ position: relative;
+ padding-bottom:10px;
+ }
+a:hover{
+ color: #83835b;
+ transition: 1s;
+}
+a::after{
+ content: " ";
+ width: 0%;
+ height: 3px;
+border-radius: 10px;
+background-color: #FFFFBE;
+
+ bottom: 0;
+ left: 0;
+ transition: 0.5s ease-in-out;
+ }
+a:hover::after{
+ width: 100%;
+}
+
+
+img{
+  width: 200px;
+  border-radius: 20px;
+}
+
+img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+nav{
+  display: flex;
+  gap: 60px;
+}
+
+nav>.bota{
+  width: 380px;
+  height: 450px;
+margin-top:80px ;
+margin-left: 100px;
+}
+
+section>h1{
+  margin-top: 80px;
+  color: #144714;
+}
+
+h2{
+  color: #144714;
+  margin-top: 20px;
+}
+select{
+height: 30px;
+width: 200px;
+border-radius: 10px;
+font-size: 16px;
+}
+ .button{
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #144714;
+  color: #949439;
+  border: none;
+display: block;
+}
+.button:hover{
+ background-color: #88e36f;
+  color:#144714;
+  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+::placeholder{
+color:#FFFFBE;
+}
