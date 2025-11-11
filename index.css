@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(Imagem/imagem-login02c.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main {
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin-left: 300px;
+  background-color:#c19a6bcb;
+  margin-top: 80px;
+}
+main h2 {
+  margin-bottom: 20px;
+  color: #4B2E2A;
+}
+main input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #4B2E2A;
+  border-radius: 10px;
+}
+main button {
+  width: 60%;
+  padding: 10px;
+  background-color: #3EB300;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 40px;
+  font-size: 18px;
+}
+button:hover{
+  background-color: #4B2E2A;
+}
+button>a:hover{
+ font-weight:bold;
+}
+.recup {
+  color: #4B2E2A;
+}
+h5 {
+  margin-top: 15px;
+  text-align: left;
+}
+main > button > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p > a {
+  color: #4B2E2A;
+}
+p {
+  font-size: 15px;
+  margin: -15px;
+}
+h6 {
+  text-align: left;
+  margin-top: 10px;
+}
